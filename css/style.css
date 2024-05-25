@@ -80,13 +80,14 @@ body {
 
 @media (max-width: 1200px) {
   .header {
-    height: 55px;
+    height: 60px;
     align-items: center;
     text-align: center;
   }
 
   .judul {
     font-size: 20px;
+    letter-spacing: 5px;
   }
 
   .row {
