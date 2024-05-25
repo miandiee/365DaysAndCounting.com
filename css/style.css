@@ -92,17 +92,22 @@ body {
 
   .row {
     display: block;
+    flex-direction: column;
   }
 
   .img-about {
-    width: 550px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     margin-bottom: 10px;
   }
 
   .img-tamia {
     margin-top: 0px;
-    width: 550px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
+  }
+  .card {
+    width: 400px;
+    height: 450px;
   }
 }
