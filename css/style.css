@@ -235,4 +235,11 @@ body {
   .dates-text {
     transform: translate(-24%, 100%);
   }
+
+  .img-dates {
+    width: 10px;
+    height: 150px;
+    border-radius: 5px;
+    flex: 1;
+  }
 }
