@@ -123,6 +123,16 @@ body {
   transform: translate(-15%, 200%);
 }
 
+.footer {
+  background-color: #E1AFD1;
+  width: auto;
+  height: 100px;
+  /* margin-bottom: 0px;
+  padding-bottom: 0px; */
+  margin: 0px auto;
+  padding: 0%;
+}
+
 @media (max-width: 1200px) {
   .header {
     height: 50px;
@@ -178,7 +188,7 @@ body {
   }
   
   .dates {
-    width: 420px;
+    width: 400px;
   }
   
   .dates-text {
