@@ -111,6 +111,18 @@ body {
   object-fit: cover;
 }
 
+.card-dates {
+  display: block;
+}
+
+.dates {
+  width: 1420px;
+}
+
+.dates-text {
+  transform: translate(-15%, 200%);
+}
+
 @media (max-width: 1200px) {
   .header {
     height: 50px;
@@ -156,8 +168,20 @@ body {
   }
 
   .overlay-text {
-    transform: translate(-27%, 60%);
+    transform: translate(-26%, 60%);
     font-size: 10px;
     max-width: 20px;
+  }
+
+  .card-dates {
+    display: block;
+  }
+  
+  .dates {
+    width: 420px;
+  }
+  
+  .dates-text {
+    transform: translate(-24%, 100%);
   }
 }
