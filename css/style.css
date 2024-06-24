@@ -69,7 +69,7 @@ body {
   width: 450px;
   height: 350px;
   border-radius: 5px;
-  box-shadow: 5px 8px #7469B6;
+  box-shadow: 8px 8px #7469B6;
 }
 
 .card-header {
@@ -100,8 +100,20 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  margin: 0; 
+}
+
+.card-body-grid {
+  position: relative;
+  width: 100%;
+  height: 100%;
   margin: 0;
-  padding: 0;
+
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 10px; 
+  padding-left: 15px; 
 }
 
 .img-card {
@@ -116,10 +128,39 @@ body {
 }
 
 .dates {
+  display: flex;
+  justify-content: flex-end;
   width: 1420px;
 }
 
 .dates-text {
+  transform: translate(-15%, 200%);
+}
+
+.img-dates {
+  width: 450px;
+  height: 350px;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.card-paparazzi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.paparazzi {
+  height: 700px;
+}
+
+.img-paparazzi {
+  width: 350px;
+  height: 300%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.paparazzi-text {
   transform: translate(-15%, 200%);
 }
 
